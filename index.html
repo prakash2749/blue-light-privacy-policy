@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Liora Blue Light Filter</title>
+  <meta name="description" content="Privacy policy for the Liora Blue Light Filter Android app." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="36" r="22" fill="none" stroke="#FFB970" stroke-width="3" stroke-linecap="round" stroke-dasharray="50 100" transform="rotate(200 32 36)" />
+          <circle cx="32" cy="36" r="14" fill="none" stroke="#E8843A" stroke-width="4" stroke-linecap="round" stroke-dasharray="36 100" transform="rotate(195 32 36)" />
+          <line x1="14" y1="50" x2="50" y2="50" stroke="#FFE7C2" stroke-width="3" stroke-linecap="round" />
+        </svg>
+        <div>
+          <h1 class="brand-name">Liora</h1>
+          <p class="brand-descriptor">BLUE LIGHT FILTER</p>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Vol. 01 · Privacy</p>
+        <h2 class="hero-title">Your data stays<br /><em>on your device.</em></h2>
+        <p class="hero-sub">Liora is built so personal data never has to leave your phone. This page explains exactly what we collect, what we don't, and why.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container content">
+    <section class="card">
+      <h3>At a glance</h3>
+      <ul class="checklist">
+        <li><span class="dot ok"></span>No account. No sign-in. No personal profile.</li>
+        <li><span class="dot ok"></span>App settings and history stay on your device.</li>
+        <li><span class="dot ok"></span>Location is only used locally to compute sunset time. It is never uploaded.</li>
+        <li><span class="dot warn"></span>The app shows ads via Google AdMob, which has its own privacy policy.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Who we are</h3>
+      <p>Liora — Blue Light Filter (the "app") is published by Prakash Makwana ("we", "us", "our"). The app's package identifier on Google Play is <code>com.Liora.Blue.Light.Filter</code>. Contact: <a href="mailto:sepl.prakashmakwana@gmail.com">sepl.prakashmakwana@gmail.com</a>.</p>
+      <p>This privacy policy applies to the Android app and to this documentation site. Last updated <strong id="last-updated">May 17, 2026</strong>.</p>
+    </section>
+
+    <section>
+      <h3>What the app stores on your device</h3>
+      <p>The following data is stored locally in app preferences and a Room database. None of it is transmitted to us or to any third party.</p>
+      <ul>
+        <li><strong>Filter settings</strong> — color temperature, intensity, dimming, scheduled times, and the on/off state of the filter.</li>
+        <li><strong>Saved profiles</strong> — names and parameters of filter presets you create.</li>
+        <li><strong>Usage history</strong> — timestamps of when the filter was on or off so you can review your own usage on the statistics screen.</li>
+        <li><strong>App exclusions</strong> — package names of apps you choose to exclude from the filter.</li>
+        <li><strong>Last known location</strong> — only if you opt into the sunset-to-sunrise schedule. Used to compute sunrise and sunset locally.</li>
+      </ul>
+      <p>You can erase all of this at any time by clearing app data in Android Settings → Apps → Liora → Storage → Clear data, or by uninstalling the app.</p>
+    </section>
+
+    <section>
+      <h3>Permissions and why we ask for them</h3>
+      <table>
+        <thead>
+          <tr><th>Permission</th><th>Why</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><code>SYSTEM_ALERT_WINDOW</code></td><td>Draws the warm filter overlay above other apps. This is the core of the product.</td></tr>
+          <tr><td>Accessibility service</td><td>Keeps the filter visible on system surfaces such as notifications, the app drawer, and lock screens. The service does <strong>not</strong> read screen content; it is only used to keep the overlay aligned.</td></tr>
+          <tr><td><code>FOREGROUND_SERVICE</code> / <code>FOREGROUND_SERVICE_SPECIAL_USE</code></td><td>Required by Android so the overlay can stay on while you switch apps.</td></tr>
+          <tr><td><code>POST_NOTIFICATIONS</code></td><td>Shows a small ongoing notification while the filter is active so you can turn it off quickly.</td></tr>
+          <tr><td><code>SCHEDULE_EXACT_ALARM</code></td><td>Triggers the filter at exactly the scheduled times you set.</td></tr>
+          <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Restores your scheduled filter after a reboot, only if you have a schedule enabled.</td></tr>
+          <tr><td><code>ACCESS_COARSE_LOCATION</code> / <code>ACCESS_FINE_LOCATION</code></td><td>Optional. Used only when you enable the sunset-to-sunrise schedule, and only on your device.</td></tr>
+          <tr><td><code>INTERNET</code> / <code>ACCESS_NETWORK_STATE</code></td><td>Used to load advertising from Google AdMob.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h3>Advertising</h3>
+      <p>The app displays advertising through Google AdMob to support free distribution. AdMob may collect data such as a device advertising identifier, IP address, and limited interaction data in order to serve and measure ads. This data is collected directly by Google, not by us.</p>
+      <p>You can read Google's policy at <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google's Partner sites and Privacy &amp; Terms</a>, and you can reset or limit the advertising identifier in Android Settings → Privacy → Ads.</p>
+      <p>If applicable laws (such as GDPR or CCPA) apply to you, AdMob displays a consent prompt the first time the app shows an ad. Your choice is stored on the device.</p>
+    </section>
+
+    <section>
+      <h3>Crash and analytics data</h3>
+      <p>The app does not include any first-party analytics, telemetry, or crash reporting service. We do not know that you have installed the app, opened it, or used any specific feature.</p>
+    </section>
+
+    <section>
+      <h3>Children</h3>
+      <p>Liora is not directed at children under 13. The app does not knowingly collect personal information from children. AdMob is configured with family-safe content settings; if you believe a child has used the app and you would like to ensure their advertising identifier is reset, see Google's instructions linked above.</p>
+    </section>
+
+    <section>
+      <h3>Your choices</h3>
+      <ul>
+        <li><strong>Stop the filter.</strong> Toggle the power button on the home screen, use the Quick Settings tile, or revoke either permission in Android Settings.</li>
+        <li><strong>Delete your data.</strong> Clear app data, or uninstall the app.</li>
+        <li><strong>Limit advertising.</strong> Reset or opt out of personalized advertising in Android Settings → Privacy → Ads.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Changes to this policy</h3>
+      <p>If we materially change how the app handles data, we will update this page and bump the "Last updated" date. Significant changes (for example, adding a new third-party SDK that processes data) will be highlighted in a release note in the app store listing.</p>
+    </section>
+
+    <section>
+      <h3>Contact</h3>
+      <p>Questions, complaints, or data requests? Email <a href="mailto:sepl.prakashmakwana@gmail.com">sepl.prakashmakwana@gmail.com</a>. We reply within 14 days.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Liora — Blue Light Filter. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
